@@ -18,14 +18,10 @@ class MainActivity : AppCompatActivity() {
         val buttonMenos = findViewById<Button>(R.id.btnSub)
         val buttonMulti = findViewById<Button>(R.id.btnMulti)
         val buttonDiv = findViewById<Button>(R.id.btnDiv)
-        val resultado = findViewById<EditText>(R.id.tnResultado)
+        var resultado = findViewById<EditText>(R.id.tnResultado)
 
         val numero1 = firstDigit.text.toString()
         val numero2 = secondDigit.text.toString()
-
-        buttonSum.setOnClickListener {
-            resultado
-        }
 
 
 
