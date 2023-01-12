@@ -27,6 +27,7 @@
         android:layout_marginTop="31dp"
         android:ems="10"
         android:inputType="number"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
@@ -56,6 +57,7 @@
         android:layout_marginTop="52dp"
         android:ems="10"
         android:inputType="number"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -67,6 +69,7 @@
         android:id="@+id/btnSoma"
         android:layout_width="50dp"
         android:layout_height="50dp"
+        android:backgroundTint="@color/teal_700"
         android:text="+"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -81,6 +84,7 @@
         android:id="@+id/btnSub"
         android:layout_width="50dp"
         android:layout_height="50dp"
+        android:backgroundTint="@color/teal_700"
         android:text="-"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -96,6 +100,7 @@
         android:id="@+id/btnMulti"
         android:layout_width="50dp"
         android:layout_height="50dp"
+        android:backgroundTint="@color/teal_700"
         android:text="x"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -110,6 +115,7 @@
         android:id="@+id/btnDiv"
         android:layout_width="50dp"
         android:layout_height="50dp"
+        android:backgroundTint="@color/teal_700"
         android:text="/"
         android:textColor="@color/white"
         android:textSize="24sp"
@@ -135,17 +141,16 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.759" />
 
-    <EditText
-        android:id="@+id/tnResultado"
+    <TextView
+        android:id="@+id/tvOperacao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="number"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintHorizontal_bias="0.509"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.908" />
+        app:layout_constraintVertical_bias="0.921" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
